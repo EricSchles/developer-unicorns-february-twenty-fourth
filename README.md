@@ -18,7 +18,7 @@ Setting up Heroku:
 	* Or make sure you set up a virtualenv and use the pip within your virtualenv
 * create a Procfile
 	* For most simple web apps you'll only need: `web: gunicorn app:app`
-		* in general Procfile's have the following form: <process type> : <command>, for more info [check this out](https://devcenter.heroku.com/articles/procfile)	
+		* in general Procfile's have the following form: `<process type> : <command>`, for more info [check this out](https://devcenter.heroku.com/articles/procfile)	
 	* For more advance web apps check out the [foreman reference](http://ddollar.github.io/foreman/) and [an interesting example with web sockets](https://devcenter.heroku.com/articles/python-websockets)
 	* concurrency with foreman:
 		* Procfile: 
