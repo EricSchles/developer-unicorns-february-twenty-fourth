@@ -23,7 +23,8 @@ Setting up Heroku:
 	* concurrency with foreman:
 		* Procfile: 
 		  	    `web: gunicorn web:web`
-		            `worker: python scraper.py` 
+
+			    `worker: python scraper.py` 
 		* terminal command: `foreman start -c web=1, worker=2`
 
 * create a `runtime.txt` file
